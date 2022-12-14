@@ -1,0 +1,4 @@
+*
+!lib
+!.gitignore
+!index.example.ts
