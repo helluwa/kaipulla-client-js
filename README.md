@@ -3,9 +3,9 @@
 ## Installation
 
 ```bash
-npm i kaipulla-client-js
+npm i kaipulla-client-js axios form-data
 
  or
 
-yarn add kaipulla-client-js
+yarn add kaipulla-client-js axios form-data
 ```

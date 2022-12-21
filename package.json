@@ -52,7 +52,9 @@
   ],
   "devDependencies": {
     "@size-limit/preset-small-lib": "^7.0.4",
+    "axios": "^1.2.1",
     "cz-conventional-changelog": "^3.3.0",
+    "form-data": "^4.0.0",
     "husky": "^7.0.4",
     "semantic-release": "^18.0.1",
     "size-limit": "^7.0.4",
@@ -78,5 +80,9 @@
     "pdf",
     "pdf-service"
   ],
-  "peerDependencies": {}
+  "peerDependencies": {
+    "axios": "*",
+    "form-data": "*"
+  },
+  "dependencies": {}
 }
