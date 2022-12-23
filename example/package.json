@@ -7,7 +7,9 @@
     "dev": "nodemon --config nodemon.json src/index.ts",
     "dev:debug": "nodemon --config nodemon.json --inspect-brk src/index.ts"
   },
-  "dependencies": {},
+  "dependencies": {
+    "form-data": "^4.0.0"
+  },
   "devDependencies": {
     "@types/node": "^16.9.4",
     "nodemon": "^2.0.12",
