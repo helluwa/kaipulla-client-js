@@ -12,11 +12,11 @@ export class RemixHandler {
         return new Promise<KaipullaResponse>((resolve) => {
             const form = new FormData()
             form.append('to', mailData.to)
-            form.append('subject', mailData.subject)
+            form.append('subject', mailData.subject ? mailData.subject : '')
             form.append('text', mailData.text ? mailData.text : '')
             form.append('html', mailData.html ? mailData.html : '')
-            form.append('cc', JSON.stringify(mailData.cc))
-            form.append('bcc', JSON.stringify(mailData.bcc))
+            form.append('cc', JSON.stringify(mailData.cc ? mailData.cc : []))
+            form.append('bcc', JSON.stringify(mailData.bcc ? mailData.bcc : []))
             form.pipe(concat(data => {
                 const headers = {
                     'Authorization': `Bearer ${this.clientOptions.apiToken}`,
