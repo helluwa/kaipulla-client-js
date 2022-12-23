@@ -5,8 +5,8 @@
   "author": "Karthikeyan Mariappan",
   "description": "Javascript client for Kaipulla Application",
   "module": "dist/kaipulla-client.esm.js",
-  "main": "dist/kaipulla-client.js",
-  "typings": "dist/kaipulla-client.d.ts",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "files": [
     "dist",
     "src"

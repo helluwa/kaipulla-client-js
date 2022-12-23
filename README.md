@@ -3,9 +3,9 @@
 ## Installation
 
 ```bash
-npm i kaipulla-client-js axios form-data
+npm i @helluwa/kaipulla-client-js axios form-data concat-stream
 
  or
 
-yarn add kaipulla-client-js axios form-data
+yarn add @helluwa/kaipulla-client-js axios form-data concat-stream
 ```
